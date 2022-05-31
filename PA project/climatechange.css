@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200;300&family=Montserrat:wght@200&family=Raleway:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@300&display=swap');
+
+.game {
+    font-family:'Kumbh Sans', sans-serif;
+}
+
+section{
+    font-family:'Kumbh Sans', sans-serif;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+
+
+#frame001 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 5px;
+}
+
+#color001 {
+    color: black;
+    font-size: large;
+    text-align: left;
+}
+
+#center001 {
+    text-align: center;
+}
+
+.button001 {
+    background-color: rgb(38, 182, 9);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.button002 {
+    width: 10px;
+    height: 10px;
+}
+
+#navbar {
+    background-color: #333; 
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s; 
+  
+}
+  
+ 
+  #navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  #navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+
+
+#Intro {
+    background: linear-gradient(#7AE5F5, #C9F6FF);
+}
+
+#ClimateChange {
+    background-color: #DFF5CE;
+}
+.ClimateChange {
+    width: 100%;
+    float: left;
+    height: 50vh;
+background-color: #DFF5CE ;
+}
+
+.Consequences {
+    width: 100%;
+    float: left;
+    height: 50vh;
+}
+
+.Globalwarming {
+    width: 100%;
+    float: left;
+    height: 50vh;
+}
+
+  .animation {
+      width: 750px;
+       
+  }
+
+  #carouselExampleIndicators {
+    width: 900px;
+  }
+
+  .slides {
+      width: 900px;
+  }
+
+  ul {
+    margin: 0 0 0 32px;
+    line-height: 1.5;
+  }
+
+  ul {
+      list-style-image: url("/images/home.png");
+  }
+
+  .b2{
+    list-style-image: url("/images/bicycle.png");
+  }
+  
+  .b3{
+    list-style-image: url("/images/recycling.png");
+  }
+
+  .b4{
+    list-style-image: url("/images/compostable.png");
+      
+  }
+  
+ 
+  
+  
+ 
+
+
+  #first {
+      z-index: 10;
+      padding-top: 35px;
+
+  }
+
+#ClimateChange{
+    background: #DFF5CE;
+}
+
+
+
+
+
+
+.container_dict {
+    background-color: #ffff;
+    width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 50%;
+    padding: 70px 40px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(38, 33, 61, 0.2);
+}
+.search-box1 {
+    width: 350px;
+    display: inline;
+    float: left;
+    
+}
+.search-box1 input {
+    padding: 5px;
+    width: 50%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
+.search-box1 button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #ae9cff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #b3b6d4;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: #575a7b;
+}
+.word-example {
+    color: #575a7b;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+
+#dictionary {
+    height: 100vh;
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+body{
+    background-color: #74EBD5;
+background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+
+}
+
